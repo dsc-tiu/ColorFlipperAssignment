@@ -1,0 +1,30 @@
+#reg-form{
+    background-color:#000000;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size: xx-large;
+    width: 200px;
+    padding: 100px 100px 100px 100px;
+    margin: 180px ;
+    opacity: 1;
+    border-radius: 40px;
+    
+}
+
+#i1{
+    opacity: 0.9;
+}
+.button {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color:black;
+    padding: 16px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:initial;
+    font-size: 16px;
+    border-radius: 30px;
+  }
