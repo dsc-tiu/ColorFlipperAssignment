@@ -1,0 +1,71 @@
+.landingSection {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  background-color: transparent;
+
+  gap: 8em;
+}
+
+.colorInfo {
+  width: 30vw;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #000000;
+
+  border-radius: 2em;
+
+  gap: 1em;
+
+  font-size: 1.4em;
+  font-family: 'Outfit', sans-serif;
+  color: #eee;
+
+  z-index: 10;
+}
+
+.hexColorInfo:hover {
+  color: #0077ff;
+  cursor: pointer;
+}
+
+.colorChangeBtn {
+  display: inline-block;
+
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 3px solid #00000099;
+  outline: none;
+  background-color: #ffffff00;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  z-index: 10;
+}
+.colorChangeBtn:hover {
+  background-color: #00000099;
+  color: white;
+  transition: all 0.5s;
+}
+.colorChangeBtn:active {
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+// #tsparticles {
+//   z-index: -10;
+// }
